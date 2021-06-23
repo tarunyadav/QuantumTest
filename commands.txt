@@ -1,16 +1,11 @@
 In Sage:
 
-cd /cygdrive/h/"My Drive"/OfficeDesktop/DifferentialMILP/SourceCode/MILP_PIPO
-
-
 load('MinimizeInequality_step_1.py')
 
 
 load('MinimizeInequality_step_2.py')
 
-
-"C:\Users\tarunyadav\AppData\Local\SageMath 9.0\runtime\bin\bash" /opt/sagemath-9.0/sage "H:\My Drive\OfficeDesktop/DifferentialMILP/SourceCode/MILP_PIPO/MinimizeInequality_step_1.py"
-
+In MILP:
 
 m = read('MinimizeInequality_step_1_1.lp')
 m.optimize()
